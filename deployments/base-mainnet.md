@@ -1,6 +1,6 @@
 # Base Mainnet Deployment
 
-This document records the canonical deployment of **SecureEthUsdcSwapV3** on Base Mainnet.
+This document records the canonical deployment of **SecureEthUsdcSwap** on Base Mainnet.
 
 All parameters below correspond exactly to the verified on-chain contract and are provided for auditability, reproducibility, and integration reference.
 
@@ -15,19 +15,19 @@ All parameters below correspond exactly to the verified on-chain contract and ar
 
 ## Contract
 
-- Name: SecureEthUsdcSwapV3
-- Version: v3
+- Name: SecureEthUsdcSwap
+- Version: v9
 - Address:  
-  0x32901898b85630eCE7D322Cee992EaF4bF17b19d
+  0x19F148f34c10Cdb69b2356EFE223296be653092b
 
 ---
 
 ## Deployment Transaction
 
 - Transaction hash:  
-  0xf1d9c513ea3bac3ad8badfd4f721acd330e6498bb72e590e46cb1ca01ecbfc3c
+  0xc0f330c67a168acc6d05258be6757adb64447a4656ef429e2c4d0788ad3b5abe
 - Block number:  
-  43053559
+  43601082
 
 ---
 
@@ -46,7 +46,7 @@ No other constructor parameters are used.
 
 - Status: Verified on BaseScan
 - Verification method: Solidity Standard JSON Input
-- Compiler version: 0.8.26
+- Compiler version: 0.8.28
 - Optimization: Enabled (200 runs)
 - viaIR: true
 - EVM version: cancun
@@ -57,6 +57,6 @@ The verified source code and the deployed bytecode are identical.
 
 ## Notes
 
-- This deployment represents the canonical production instance of SecureEthUsdcSwapV3.
+- This deployment represents the canonical production instance of SecureEthUsdcSwap.
 - The contract is non-upgradeable and has no admin or owner privileges.
 - All protocol rules are enforced exclusively by the deployed bytecode.
