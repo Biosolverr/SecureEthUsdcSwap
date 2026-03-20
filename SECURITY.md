@@ -1,6 +1,3 @@
-SECURITY.md
-markdownDownloadCopy code# Security Policy
-
 ## Supported Versions
 
 | Version | Status |
