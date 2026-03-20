@@ -1,6 +1,6 @@
 # Base Sepolia Deployment
 
-This document records the test network deployment of **SecureEthUsdcSwapV3** on Base Sepolia.
+This document records the test network deployment of **SecureEthUsdcSwap** on Base Sepolia.
 
 This deployment is intended for testing, integration development, and pre-production validation.
 
@@ -16,18 +16,18 @@ This deployment is intended for testing, integration development, and pre-produc
 ## Contract
 
 - Name: SecureEthUsdcSwapV3
-- Version: v3
+- Version: v9
 - Address:  
-  0xdAedCDDE7b16D86EA035cc0566ee506Aa2EB73f8
+  0x0438d174384cEe22fb103fC7C4c301800985417b
 
 ---
 
 ## Deployment Transaction
 
 - Transaction hash:  
-  0x670fdfd692dcf3c602f3477c2e653cac7eb10af790de4c0bbc5fc5cd4eb42d79
+  0x481e166f327b78a7b8704988a751eb313196c9bfa1689a2c734099097e70ba44
 - Block number:  
-  38560914
+  39108839
 
 ---
 
@@ -46,7 +46,7 @@ No other constructor parameters are used.
 
 - Status: Verified on BaseScan (Sepolia)
 - Verification method: Solidity Standard JSON Input
-- Compiler version: 0.8.26
+- Compiler version: 0.8.28
 - Optimization: Enabled (200 runs)
 - viaIR: true
 - EVM version: cancun
